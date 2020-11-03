@@ -1,0 +1,35 @@
+.product__buy {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.product__buy .buy__left {
+  display: flex;
+}
+
+.product__buy p {
+  color: #2d2b2b;
+  font-family: 'd-r';
+  font-size: 37px;
+}
+
+.product__buy p del {
+  color: #862424;
+  font-size: 17px;
+}
+
+.product__buy p span {
+  color: #862424;
+  font-size: 17px;
+}
+
+.product__buy .buy__rigth p {
+  font-size: 18px;
+}
+
+.card__product h1 {
+  color: #282828;
+  font-family: 'd-bo';
+  font-size: 25px;
+}

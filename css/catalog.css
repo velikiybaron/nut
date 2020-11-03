@@ -1,0 +1,135 @@
+.price__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__product label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #282828;
+  font-family: 'd-bo';
+}
+
+.products2 {
+  padding: 30px 0;
+}
+
+.products2 .tabs-slider-items .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'd-r';
+  padding: 15px;
+  font-size: 15px;
+  color: #b8b8b8;
+}
+
+.products2 .tabs-slider-items .tab .tab-item1 {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.products2 .tabs-slider-items .tab .tab-item1.active1 {
+  color: #643131;
+}
+
+.products2 .products-row-1 {
+  border-bottom: 1px solid grey;
+}
+
+.products2 .text-new {
+  font-family: 'd-bo';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products2 .product__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products2 .product__img img {
+  width: 73px;
+  height: 176px;
+}
+
+.products2 .tab-slider1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products2 .product {
+  position: relative;
+  font-family: 'd-r';
+  padding: 30px 15px;
+  cursor: pointer;
+}
+
+.products2 .product .product__img {
+  margin-bottom: 30px;
+}
+
+.products2 .product p {
+  color: #8b8b8b;
+}
+
+.products2 .product .stars {
+  color: #ffa006;
+}
+
+.products2 .product .stars .star-grey {
+  color: #dddddd;
+}
+
+.products2 .product .prise {
+  color: #2d2b2b;
+  font-weight: 700;
+}
+
+.products2 .product::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 70%;
+  background: #f0f0f0;
+  right: 0;
+  top: 30px;
+}
+
+@media (max-width: 575px) {
+  .products2 .tabs-slider-items .tab .tab-item1 {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .products2 .tabs-slider-items .tab .tab-item1 {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+}
